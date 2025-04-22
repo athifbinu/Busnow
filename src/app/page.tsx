@@ -37,19 +37,18 @@ export default function Home() {
         />
 
         {/* Overlay text */}
-        <h1 className="absolute top-10 left-1/2 -translate-x-1/2 text-white text-4xl sm:text-5xl font-bold drop-shadow-lg">
+        <h1 className="absolute top-10 left-1/2 -translate-x-1/2 text-white text-4xl sm:text-5xl font-bold drop-shadow-xl">
           BusNow
         </h1>
 
         {/* Floating search box */}
-        <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 bg-white border rounded-xl shadow-md px-4 py-4 flex flex-col sm:flex-row items-center justify-center gap-4 w-[90%] sm:w-auto">
+        <div className="absolute bottom-60 left-1/2 -translate-x-1/2 bg-white border rounded-xl shadow-md px-4 py-4 flex flex-col sm:flex-row items-center justify-center gap-4 w-[90%] sm:w-auto">
           {/* From input */}
           <Input placeholder="From" className="w-full sm:w-40 font-semibold" />
 
           {/* To input */}
           <Input placeholder="To" className="w-full sm:w-40 font-semibold" />
 
-          {/* Date + AM/PM selector */}
           <div className="flex gap-2 items-center">
             <Popover>
               <PopoverTrigger asChild>
