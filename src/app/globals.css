@@ -120,3 +120,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.container {
+  padding: 3rem;
+}
+
+/* For large screens (usually from 1024px and up) */
+@media (min-width: 1024px) {
+  .container {
+    padding: 3rem;
+  }
+}

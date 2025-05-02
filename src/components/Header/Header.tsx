@@ -25,7 +25,7 @@ export default function Header() {
           >
             Help
           </Link>
-          <Link href="/contribute">
+          <Link href="/">
             <Button variant="outline" className="text-sm font-semibold">
               Contribute
             </Button>

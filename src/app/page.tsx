@@ -104,7 +104,7 @@ export default function Home() {
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">
                 Making Your Bus Journey Smarter
               </h2>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed ">
                 BusNow helps you find real-time bus timings with ease. No more
                 waiting in uncertainty — with our app, you can plan your journey
                 efficiently and travel stress-free. We are committed to
@@ -117,6 +117,14 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
+            How it works
+          </h1>
         </div>
       </section>
     </div>
